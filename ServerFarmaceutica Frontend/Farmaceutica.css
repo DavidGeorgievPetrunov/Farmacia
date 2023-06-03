@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    color: black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+label,input {
+    font-size: 5em;
+}
+
+
+input {
+    font-size: 2em;
+}
+
+
+div#Login  {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+div#Login input {
+    margin-bottom: 5em;
+}
+
+div#Login .submit {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    margin-left:2em;
+    margin-right: 2em;
+    width: 5em;
+    margin-top: 3em;
+}
+
+div#register {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+div#register input {
+    margin-bottom: 2em;
+}
+div#register .submit {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    margin-left:2em;
+    margin-right: 2em;
+    width: 5em;
+}
+
+
+
+div#botones {   
+    background-color: red;
+    margin-left: 25%;
+    width: 50%;
+    height: 70%;
+}
+
+
+div#botones button {
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 30%; 
+    font-size: 5em;
+    width: 400px;
+}
+
+
+table {
+    width: 100%;
+}
+
+
+th {
+    background-color: aqua;
+    color: brown;
+    padding: 0.5em;
+}
+
+
+td {
+    background-color: violet;
+    color: darkmagenta;
+    padding: 1.5em;
+}
+
+
+div#botonesAlta button {
+    width: 30%;
+    font-size: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+div#alta {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+div#alta label, div#alta input, div#alta select {
+    font-size: 3em;
+    width: 12em;
+    margin-bottom: 1.4em;
+}

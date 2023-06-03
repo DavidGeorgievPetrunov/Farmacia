@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Alta.js"></script>
+    <link rel="stylesheet" href="Farmaceutica.css"/>
+    <title>Farmaceutica Alta</title>
+</head>
+<body class="login" onload="hacer_gets()">
+    <div id="alta">
+    <label for="xip">Id xip</label>
+    <br>
+    <input type="number" name="xip" id="xip"></input>
+    <br>
+    <label for="patient">Mail Paciente</label>
+    <br>
+    <select name="patient" id="patient"></select>
+    <br>
+    <label for="medicine">Id Medicine</label>
+    <br>
+    <select name="medicine" id="medicine"></select>
+    <br>
+    <label for="date">Date</label>
+    <br>
+    <input type="date" name="date" id="date"></input>
+    <br><br>
+    <div id="botonesAlta">
+    <button type="button" onclick="enviar()" class="submit"> Enviar </input>
+    <button type="button" onclick="gestioPagina()" class="submit"> Back </input>
+    </div>
+    <br><br>
+</body>
+</html>
